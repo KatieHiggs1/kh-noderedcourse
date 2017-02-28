@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: kh-noderedcourse
+  host: kh-noderedcourse
+  disk_quota: 1024M
+  services:
+  - kh-noderedcourse-cloudantNoSQLDB
+  - Language Translator-k9
+  - Conversation-ef
